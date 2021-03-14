@@ -110,6 +110,12 @@ app.get("/middlewares",[mw1, mw2, ....], (req, res)=>{
 ```
 You can access search queries with req.query
 
+If you're using MongoDb with mongoose , you can connect to db with this code  : 
+
+```javascript
+app.connectMongoDb(27017, "testSolJS")
+```
+
 # Special Tags
  You can use ``` <store></store> ``` tag to have global variables in your html file :
  
