@@ -1,0 +1,37 @@
+{
+  "_from": "soljs_sh@^1.0.0",
+  "_id": "soljs_sh@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-qXiVE0/jtcKipAhcB8j0TKENSbNFReBDXq+YyK04ongQzCMEuP/P7TrwZNWwvLrw6E3b5lxI6adoJbNzLq02Og==",
+  "_location": "/soljs_sh",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "soljs_sh@^1.0.0",
+    "name": "soljs_sh",
+    "escapedName": "soljs_sh",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/soljs_sh/-/soljs_sh-1.0.1.tgz",
+  "_shasum": "0caaf9b256cd138b24e148b6209dc2ca8703f93a",
+  "_spec": "soljs_sh@^1.0.0",
+  "_where": "D:\\test-solojs",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "license": "ISC",
+  "main": "Sol.js",
+  "name": "soljs_sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
