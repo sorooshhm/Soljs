@@ -32,7 +32,7 @@ app.listen(3000, (err)=>{
   console.log("App is listening to port 3000");
 })
 ```
-Now open your browser and search == localhost:3000 == 
+Now open your browser and search ``` localhost:3000 ``` 
 
 ![alt photo](https://s16.picofile.com/file/8427976142/highlight_README_md_at_master_simplabs_highlight_Google_Chrome_3_14_2021_8_41_48_PM.png)
 
@@ -111,7 +111,7 @@ app.get("/middlewares",[mw1, mw2, ....], (req, res)=>{
 You can access search queries with req.query
 
 # Special Tags
- You can use == <store></store> == tag to have global variables in your html file :
+ You can use ``` <store></store> ``` tag to have global variables in your html file :
  
  ```html
 <store>
