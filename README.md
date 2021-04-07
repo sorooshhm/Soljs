@@ -42,7 +42,7 @@ You can also send html files to the client
 for example you can make a folder named views , the in the server.js file put this code
 
 ```javascript
-app.setView("./view/")
+app.view("./view/")
 ```
 
 Then make a index.html file in view directory
@@ -121,9 +121,9 @@ app.connectMongoDb(27017, "testSolJS")
  
  ```html
 <store>
-{
+
   "name" : "soroosh"
-}
+
 </store>
 <h1> Hello I'm name </h1>
 ```
@@ -141,6 +141,29 @@ Also there are some tags that changes the text color :
 ```
 
 ![alt text](https://s16.picofile.com/file/8427977784/highlight_README_md_at_master_simplabs_highlight_Google_Chrome_3_14_2021_9_02_48_PM_2_.png)
+
+# New version features
+
+In the Sol JS new vesion two things has been added : 
+
+## route function
+
+You can use this function to seprate your routes . For example you can have a file just for your admin routes and use it in the app.js file in this way : 
+
+```javascript
+const adminHandler = require("/adminRoutes");
+
+app.route("/admin", adminHandler)
+
+```
+
+## component tag
+
+You cna use this tag to easily have components in your projects . For example you want to have a footer in all of your pages you can first make your footer html file and then use it like this :
+
+```html
+<component src="./footer.html" />
+```
 
 Thank you for using this framework :)))
 
